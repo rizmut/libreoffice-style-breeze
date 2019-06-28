@@ -259,6 +259,7 @@ cmd/lc_customanimation.png cmd/lc_animationobjects.png
 cmd/sc_customanimation.png cmd/sc_animationobjects.png
 
 # Locale
+cmd/32/underlinesimple.png cmd/32/underline.png
 cmd/32/ar/bulletliststyle.png cmd/32/ar/defaultbullet.png
 cmd/32/ar/numberliststyle.png cmd/32/ar/defaultnumbering.png
 cmd/32/ca/underlinesimple.png cmd/32/ca/underline.png
@@ -359,6 +360,8 @@ cmd/32/ur/removebullets.png cmd/32/ar/removebullets.png
 cmd/32/ur/romanliststyle.png cmd/32/ar/romanliststyle.png
 cmd/32/ur/romanlowliststyle.png cmd/32/ar/romanlowliststyle.png
 cmd/32/ur/undo.png cmd/32/ar/undo.png
+cmd/lc_underlinesimple.png cmd/lc_underline.png
+cmd/sc_underlinesimple.png cmd/sc_underline.png
 cmd/ar/lc_bulletliststyle.png cmd/ar/lc_defaultbullet.png
 cmd/ar/lc_numberliststyle.png cmd/ar/lc_defaultnumbering.png
 cmd/ar/sc_bulletliststyle.png cmd/ar/sc_defaultbullet.png
