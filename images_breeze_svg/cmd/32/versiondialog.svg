@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="versiondialog.svg"
+   width="32"
+   height="32"
+   inkscape:version="0.92.4 (unknown)"
+   inkscape:export-filename="/home/rizmut/Dokumen/Rizmut/Github/libreoffice-style-breeze/images_breeze/cmd/32/versiondialog.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1360"
+     inkscape:window-height="714"
+     id="namedview8"
+     showgrid="true"
+     inkscape:zoom="13.906433"
+     inkscape:cx="13.77568"
+     inkscape:cy="14.914127"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6">
+    <inkscape:grid
+       type="xygrid"
+       id="grid826" />
+  </sodipodi:namedview>
+  <path
+     style="fill:#4d4d4d;stroke-width:1.33333004;stroke:none"
+     d="M 6 4 L 6 5 L 6 22 L 7 22 L 9 22 L 9 24 L 9 25 L 12 25 L 12 28 L 13 28 L 25 28 L 26 28 L 26 10 L 25 10 L 23 10 L 23 8 L 23 7 L 20 7 L 20 4 L 19 4 L 7 4 L 6 4 z M 7 5 L 19 5 L 19 7 L 9 7 L 9 8 L 9 21 L 7 21 L 7 5 z M 10 8 L 22 8 L 22 10 L 13 10 L 12 10 L 12 11 L 12 24 L 10 24 L 10 8 z M 13 11 L 25 11 L 25 27 L 13 27 L 13 11 z "
+     id="path2" />
+</svg>

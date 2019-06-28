@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="mailmergeexcludeentry.svg"
+   inkscape:version="0.92.4 (unknown)"
+   inkscape:export-filename="/home/rizmut/Dokumen/Rizmut/Github/libreoffice-style-breeze/images_breeze/cmd/32/mailmergeexcludeentry.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1360"
+     inkscape:window-height="714"
+     id="namedview8"
+     showgrid="true"
+     inkscape:zoom="10.429825"
+     inkscape:cx="9.0038631"
+     inkscape:cy="6.9245926"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6">
+    <inkscape:grid
+       type="xygrid"
+       id="grid855" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#4d4d4d;
+      }
+      </style>
+  </defs>
+  <path
+     style="color:#4d4d4d;fill:currentColor;fill-opacity:1;stroke:none"
+     d="M 5 5 L 5 9 L 2 13 L 2 16 L 3 16 L 3 14 L 5 14 L 5.7871094 14 L 16 19.570312 L 26.212891 14 L 27 14 L 29 14 L 29 19 L 30 19 L 30 13 L 27 9 L 27 5 L 5 5 z M 6 6 L 26 6 L 26 12.974609 L 16 18.429688 L 6 12.974609 L 6 6 z M 8 8 L 8 9 L 24 9 L 24 8 L 8 8 z M 8 11 L 8 12 L 17 12 L 17 11 L 8 11 z M 6.5 17 C 5.119288 17 4 18.119288 4 19.5 C 4 20.880712 5.119288 22 6.5 22 C 7.880712 22 9 20.880712 9 19.5 C 9 18.119288 7.880712 17 6.5 17 z M 6.5 23 C 4.567004 22.999999 3 24.79086 3 27 L 10 27 C 10 24.79086 8.432996 22.999999 6.5 23 z M 6.5 24 C 7.55817 24.001782 8.5007926 24.802815 8.8535156 26 L 4.1464844 26 C 4.4992074 24.802816 5.44183 24.0018 6.5 24 z M 12 26 L 12 27 L 20 27 L 20 26 L 12 26 z "
+     id="path4" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#da4453"
+     d="M 21.707031,20 21,20.707031 24.292969,24 21,27.292969 C 21.0126,27.318169 21.707031,28 21.707031,28 L 25,24.707031 28.292969,28 29,27.292969 25.707031,24 29,20.707031 28.292969,20 25,23.292969 Z"
+     id="path4-1" />
+</svg>
