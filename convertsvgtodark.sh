@@ -44,4 +44,3 @@ cd "./.."
 rm -Rf "./images_breeze_dark"
 mv "images_breeze_dark_svg" \
   "images_breeze_dark"
-
