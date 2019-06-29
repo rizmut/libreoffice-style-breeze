@@ -190,8 +190,8 @@ cmd/sc_textfittosizetool.png cmd/sc_text_marquee.png
 cmd/sc_texttoolbox.png cmd/sc_text.png
 
 # Object
-cmd/lc_objectcatalog.png cmd/lc_dbnewform.png
-cmd/sc_objectcatalog.png cmd/sc_dbnewform.png
+cmd/lc_objectcatalog.png cmd/lc_dbviewforms.png
+cmd/sc_objectcatalog.png cmd/sc_dbviewforms.png
 
 # 3d
 cmd/lc_convertinto3dlathefast.png cmd/lc_convertinto3dlathe.png
