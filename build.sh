@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if ! command -v optipng >/dev/null
+then
+    echo "Please install optipng"
+    exit 1
+fi
+
 echo "=> Remove old PNG both light and dark version"
 cp "images_breeze/links.txt" \
    "images_breeze_svg"
@@ -46,7 +52,7 @@ do
 	fdir=$( dirname "$i")
 #	echo "and is in the directory: ${fdir##*/}"
 	#inkscape -f "$i" -e "${i%.*}.png"
-	sed -i -e 's/#4d4d4d/#f2f2f2/g' "$i"
+	sed -i -e 's/#232629/#eff0f1/g' "$i"
 	#convert "$i" -quality 75 "$i"
 done 
 
