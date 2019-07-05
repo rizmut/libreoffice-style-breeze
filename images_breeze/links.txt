@@ -405,6 +405,7 @@ cmd/32/deleteallnotes.png cmd/32/deleteallannotation.png
 cmd/32/deletenote.png cmd/32/deleteannotation.png
 cmd/32/deletecomment.png cmd/32/deleteannotation.png
 cmd/32/formatallnotes.png cmd/32/editannotation.png
+cmd/32/notevisible.png cmd/32/shownote.png
 cmd/32/showannotations.png cmd/32/showallnotes.png
 cmd/32/showchanges.png cmd/32/addwatch.png
 
@@ -414,6 +415,7 @@ cmd/lc_deleteallnotes.png cmd/lc_deleteallannotation.png
 cmd/lc_deletenote.png cmd/lc_deleteannotation.png
 cmd/lc_deletecomment.png cmd/lc_deleteannotation.png
 cmd/lc_formatallnotes.png cmd/lc_editannotation.png
+cmd/lc_notevisible.png cmd/lc_shownote.png
 cmd/lc_showannotations.png cmd/lc_showallnotes.png
 cmd/lc_showchanges.png cmd/lc_addwatch.png
 
@@ -423,6 +425,7 @@ cmd/sc_deleteallnotes.png cmd/sc_deleteallannotation.png
 cmd/sc_deletenote.png cmd/sc_deleteannotation.png
 cmd/sc_deletecomment.png cmd/sc_deleteannotation.png
 cmd/sc_formatallnotes.png cmd/sc_editannotation.png
+cmd/sc_notevisible.png cmd/sc_shownote.png
 cmd/sc_showannotations.png cmd/sc_showallnotes.png
 cmd/sc_showchanges.png cmd/sc_addwatch.png
 
@@ -1317,19 +1320,16 @@ cmd/sc_linespacing.png cmd/sc_spacepara15.png
 cmd/32/datapilotmenu.png cmd/32/datadatapilotrun.png
 cmd/32/functiondialog.png cmd/32/dbviewfunctions.png
 cmd/32/functionbox.png cmd/32/dbviewfunctions.png
-cmd/32/notevisible.png cmd/32/shownote.png
 cmd/32/sheetcommentmenu.png cmd/32/shownote.png
 
 cmd/lc_datapilotmenu.png cmd/lc_datadatapilotrun.png
 cmd/lc_functionbox.png cmd/lc_dbviewfunctions.png
 cmd/lc_functiondialog.png cmd/lc_dbviewfunctions.png
-cmd/lc_notevisible.png cmd/lc_shownote.png
 cmd/lc_sheetcommentmenu.png cmd/lc_shownote.png
 
 cmd/sc_datapilotmenu.png cmd/sc_datadatapilotrun.png
 cmd/sc_functiondialog.png cmd/sc_dbviewfunctions.png
 cmd/sc_functionbox.png cmd/sc_dbviewfunctions.png
-cmd/sc_notevisible.png cmd/sc_shownote.png
 cmd/sc_sheetcommentmenu.png cmd/sc_shownote.png
 
 # calc tabs
