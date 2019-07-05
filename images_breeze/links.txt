@@ -2466,7 +2466,7 @@ svx/res/symphony/AdjustColorBlue_16x16.png cmd/sc_grafblue.png
 svx/res/symphony/AdjustColorGamma_16x16.png cmd/sc_grafgamma.png
 svx/res/symphony/AdjustColorGreen_16x16.png cmd/sc_grafgreen.png
 svx/res/symphony/AdjustColorRed_16x16.png cmd/sc_grafred.png
-svx/res/symphony/fill_color.png cmd/sc_backgroundpatterncontroller.png
+svx/res/symphony/fill_color.png cmd/sc_formatarea.png
 svx/res/symphony/last_custom_common.png sw/res/sidebar/pageproppanel/last_custom_common.png
 svx/res/symphony/last_custom_common_grey.png sw/res/sidebar/pageproppanel/last_custom_common_grey.png
 svx/res/symphony/rotate_left.png cmd/sc_rotateleft.png
