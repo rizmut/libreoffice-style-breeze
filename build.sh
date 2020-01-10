@@ -17,6 +17,7 @@ cp -Rf "images_breeze_svg" \
 rm "images_breeze_svg/links.txt"
 cd "images_breeze"
 
+echo "=> 1. Breeze PNG (light) version"
 echo "=> Export light SVG to PNG ..."
 find -name "*.svg" -o -name "*.SVG" | while read i;
 do 
@@ -38,11 +39,12 @@ do
     rm "$i"
 done
 
+echo "=> 2. Breeze SVG (dark) version"
 cd "./.."
 
 cp -Rf "images_breeze_svg" \
-   "images_breeze_dark"
-cd "images_breeze_dark"   
+   "images_breeze_dark_svg"
+cd "images_breeze_dark_svg"   
 
 find -name "*.svg" -o -name "*.SVG" | while read i;
 do 
@@ -55,6 +57,13 @@ do
 	sed -i -e 's/#232629/#eff0f1/g' "$i"
 	#convert "$i" -quality 75 "$i"
 done 
+
+echo "=> 3. Breeze PNG (dark) version"
+cd "./.."
+
+cp -Rf "images_breeze_dark_svg" \
+   "images_breeze_dark"
+cd "images_breeze_dark" 
 
 echo "=> Export dark SVG to PNG ..."
 find -name "*.svg" -o -name "*.SVG" | while read i;

@@ -33,8 +33,8 @@ zip -r -D Breeze-IconSet.oxt *
 mv "Breeze-IconSet.oxt" \
    "./.."
 cd "./../.."
+
 # Breeze Dark
-echo "=> Deleting old $gh_desc extension file (dark) ..."
 cd "images_breeze_dark"
 zip -r -D images_breeze_dark.zip *
 mv "images_breeze_dark.zip" \
@@ -50,8 +50,8 @@ zip -r -D Breeze-Dark-IconSet.oxt *
 mv "Breeze-Dark-IconSet.oxt" \
    "./.."
 cd "./../.."
+
 # Breeze SVG
-echo "=> Deleting old $gh_desc extension file (SVG) ..."
 cd "images_breeze_svg"
 zip -r -D images_breeze_svg.zip *
 mv "images_breeze_svg.zip" \
@@ -67,10 +67,29 @@ zip -r -D Breeze-SVG-IconSet.oxt *
 mv "Breeze-SVG-IconSet.oxt" \
    "./.."
 cd "./../.."
+
+# Breeze Dark SVG
+cd "images_breeze_dark_svg"
+zip -r -D images_breeze_dark_svg.zip *
+mv "images_breeze_dark_svg.zip" \
+  "./../build/"
+cd "./../build/"
+echo "=> Deleting old $gh_desc extension file (dark SVG) ..."
+rm -f "Breeze-Dark-SVG-IconSet.oxt"
+echo "=> Create new $gh_desc extension one (dark SVG) ..."
+cp "images_breeze_dark_svg.zip" \
+   "Breeze-Dark-SVG-IconSet/iconsets"
+cd "./Breeze-Dark-SVG-IconSet"
+zip -r -D Breeze-Dark-SVG-IconSet.oxt *
+mv "Breeze-Dark-SVG-IconSet.oxt" \
+   "./.."
+cd "./../.."
+
 echo "=> Deleting whole old $gh_desc ..."
 sudo rm -f "/usr/share/libreoffice/share/config/images_breeze.zip"
 sudo rm -f "/usr/share/libreoffice/share/config/images_breeze_dark.zip"
 sudo rm -f "/usr/share/libreoffice/share/config/images_breeze_svg.zip"
+sudo rm -f "/usr/share/libreoffice/share/config/images_breeze_dark_svg.zip"
 echo "=> Installing ..."
 sudo mkdir -p "/usr/share/libreoffice/share/config"
 sudo cp \
@@ -82,6 +101,9 @@ sudo cp \
 sudo cp \
   "build/images_breeze_svg.zip" \
   "/usr/share/libreoffice/share/config"
+sudo cp \
+  "build/images_breeze_dark_svg.zip" \
+  "/usr/share/libreoffice/share/config"
 rm "images_breeze_dark/links.txt"
 for dir in \
   /usr/lib64/libreoffice/share/config \
@@ -92,5 +114,6 @@ for dir in \
   sudo ln -sf "/usr/share/libreoffice/share/config/images_breeze.zip" "$dir"
   sudo ln -sf "/usr/share/libreoffice/share/config/images_breeze_dark.zip" "$dir"
   sudo ln -sf "/usr/share/libreoffice/share/config/images_breeze_svg.zip" "$dir"
+  sudo ln -sf "/usr/share/libreoffice/share/config/images_breeze_dark_svg.zip" "$dir"
 done
 echo "=> Done!"
