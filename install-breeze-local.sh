@@ -104,7 +104,6 @@ sudo cp \
 sudo cp \
   "build/images_breeze_dark_svg.zip" \
   "/usr/share/libreoffice/share/config"
-rm "images_breeze_dark/links.txt"
 for dir in \
   /usr/lib64/libreoffice/share/config \
   /usr/lib/libreoffice/share/config \
