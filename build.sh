@@ -6,11 +6,32 @@ then
     exit 1
 fi
 
+if ! command -v svgcleaner >/dev/null
+then
+    echo "Please install svgcleaner"
+    exit 1
+fi
+
 echo "=> Remove old PNG both light and dark version"
 cp "images_breeze/links.txt" \
    "images_breeze_svg"
 rm -Rf "images_breeze"
 rm -Rf "images_breeze_dark"
+
+cd "images_breeze_svg"
+
+echo "=> Clean SVG files ..."
+find -name "*.svg" -o -name "*.SVG" | while read i;
+do 
+	echo "This $i file is compressed"
+	fname=$( basename "$i")
+#	echo "has the name: $fname"
+	fdir=$( dirname "$i")
+#	echo "and is in the directory: ${fdir##*/}"
+	svgcleaner "$i" "${i%.*}.svg"
+done
+
+cd "./.."
 
 cp -Rf "images_breeze_svg" \
    "images_breeze"
