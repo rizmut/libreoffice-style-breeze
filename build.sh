@@ -1,4 +1,5 @@
 #!/bin/bash
+#2020 by Rizal Muttaqin
 
 if ! command -v optipng >/dev/null
 then
@@ -12,11 +13,12 @@ then
     exit 1
 fi
 
-echo "=> Remove old PNG both light and dark version"
+echo "=> Remove old both light and dark version"
 cp "images_breeze/links.txt" \
    "images_breeze_svg"
 rm -Rf "images_breeze"
 rm -Rf "images_breeze_dark"
+rm -Rf "images_breeze_dark_svg"
 
 cd "images_breeze_svg"
 
@@ -84,6 +86,8 @@ cd "./.."
 
 cp -Rf "images_breeze_dark_svg" \
    "images_breeze_dark"
+cp "images_breeze/links.txt" \
+   "images_breeze_dark"   
 cd "images_breeze_dark" 
 
 echo "=> Export dark SVG to PNG ..."
