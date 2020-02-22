@@ -78,6 +78,8 @@ do
 #	echo "and is in the directory: ${fdir##*/}"
 	#inkscape -f "$i" -e "${i%.*}.png"
 	sed -i -e 's/#232629/#eff0f1/g' "$i"
+	sed -i -e 's/#fff/#000/g' "$i"
+	sed -i -e 's/#000/#fff/g' "$i"
 	#convert "$i" -quality 75 "$i"
 done 
 
