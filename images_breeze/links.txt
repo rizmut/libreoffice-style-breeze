@@ -544,6 +544,8 @@ cmd/ar/lc_redo.png cmd/lc_undo.png
 cmd/ar/lc_undo.png cmd/lc_redo.png
 cmd/ar/sc_bulletliststyle.png cmd/ar/sc_defaultbullet.png
 cmd/ar/sc_numberliststyle.png cmd/ar/sc_defaultnumbering.png
+cmd/ar/sc_redo.png cmd/sc_undo.png
+cmd/ar/sc_undo.png cmd/sc_redo.png
 cmd/ca/lc_underlinesimple.png cmd/ca/lc_underline.png
 cmd/ca/sc_underlinesimple.png cmd/ca/sc_underline.png
 cmd/es/lc_bold.png cmd/ca/lc_bold.png
