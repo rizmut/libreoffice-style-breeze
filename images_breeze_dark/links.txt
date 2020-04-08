@@ -579,7 +579,6 @@ cmd/fa/lc_numberingstart.png cmd/ar/lc_numberingstart.png
 cmd/fa/lc_numberliststyle.png cmd/ar/lc_defaultnumbering.png
 cmd/fa/lc_outlinebullet.png cmd/ar/lc_outlinebullet.png
 cmd/fa/lc_recundo.png cmd/ar/lc_recundo.png
-cmd/fa/lc_recundo.png cmd/ar/sc_recundo.png
 cmd/fa/lc_redo.png cmd/lc_undo.png
 cmd/fa/lc_removebullets.png cmd/ar/lc_removebullets.png
 cmd/fa/lc_romanliststyle.png cmd/ar/lc_romanliststyle.png
@@ -597,6 +596,7 @@ cmd/fa/sc_linenumberdialog.png cmd/ar/sc_linenumberdialog.png
 cmd/fa/sc_numberingstart.png cmd/ar/sc_numberingstart.png
 cmd/fa/sc_numberliststyle.png cmd/ar/sc_defaultnumbering.png
 cmd/fa/sc_outlinebullet.png cmd/ar/sc_outlinebullet.png
+cmd/fa/sc_recundo.png cmd/ar/sc_recundo.png
 cmd/fa/sc_redo.png cmd/sc_undo.png
 cmd/fa/sc_removebullets.png cmd/ar/sc_removebullets.png
 cmd/fa/sc_romanliststyle.png cmd/ar/sc_romanliststyle.png
@@ -625,7 +625,6 @@ cmd/he/lc_numberingstart.png cmd/ar/lc_numberingstart.png
 cmd/he/lc_numberliststyle.png cmd/ar/lc_defaultnumbering.png
 cmd/he/lc_outlinebullet.png cmd/ar/lc_outlinebullet.png
 cmd/he/lc_recundo.png cmd/ar/lc_recundo.png
-cmd/he/lc_recundo.png cmd/ar/sc_recundo.png
 cmd/he/lc_redo.png cmd/lc_undo.png
 cmd/he/lc_removebullets.png cmd/ar/lc_removebullets.png
 cmd/he/lc_romanliststyle.png cmd/ar/lc_romanliststyle.png
@@ -643,6 +642,7 @@ cmd/he/sc_linenumberdialog.png cmd/ar/sc_linenumberdialog.png
 cmd/he/sc_numberingstart.png cmd/ar/sc_numberingstart.png
 cmd/he/sc_numberliststyle.png cmd/ar/sc_defaultnumbering.png
 cmd/he/sc_outlinebullet.png cmd/ar/sc_outlinebullet.png
+cmd/he/sc_recundo.png cmd/ar/sc_recundo.png
 cmd/he/sc_redo.png cmd/sc_undo.png
 cmd/he/sc_removebullets.png cmd/ar/sc_removebullets.png
 cmd/he/sc_romanliststyle.png cmd/ar/sc_romanliststyle.png
@@ -735,7 +735,6 @@ cmd/ur/lc_numberingstart.png cmd/ar/lc_numberingstart.png
 cmd/ur/lc_numberliststyle.png cmd/ar/lc_defaultnumbering.png
 cmd/ur/lc_outlinebullet.png cmd/ar/lc_outlinebullet.png
 cmd/ur/lc_recundo.png cmd/ar/lc_recundo.png
-cmd/ur/lc_recundo.png cmd/ar/sc_recundo.png
 cmd/ur/lc_redo.png cmd/lc_undo.png
 cmd/ur/lc_removebullets.png cmd/ar/lc_removebullets.png
 cmd/ur/lc_romanliststyle.png cmd/ar/lc_romanliststyle.png
@@ -753,6 +752,7 @@ cmd/ur/sc_linenumberdialog.png cmd/ar/sc_linenumberdialog.png
 cmd/ur/sc_numberingstart.png cmd/ar/sc_numberingstart.png
 cmd/ur/sc_numberliststyle.png cmd/ar/sc_defaultnumbering.png
 cmd/ur/sc_outlinebullet.png cmd/ar/sc_outlinebullet.png
+cmd/ur/sc_recundo.png cmd/ar/sc_recundo.png
 cmd/ur/sc_redo.png cmd/sc_undo.png
 cmd/ur/sc_removebullets.png cmd/ar/sc_removebullets.png
 cmd/ur/sc_romanliststyle.png cmd/ar/sc_romanliststyle.png
