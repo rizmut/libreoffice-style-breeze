@@ -1178,7 +1178,7 @@ cmd/sc_closedocs.png cmd/sc_closedoc.png
 
 # Cancel
 cmd/32/no.png cmd/32/cancel.png
-cmd/32/removetableof.png cmd/32/cancel.pngclosedocs
+cmd/32/removetableof.png cmd/32/cancel.png
 
 cmd/lc_no.png cmd/lc_cancel.png
 cmd/lc_removetableof.png cmd/lc_cancel.png
