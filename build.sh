@@ -14,13 +14,13 @@ then
 fi
 
 echo "=> Remove old both light and dark version"
-cp "images_breeze/links.txt" \
-   "images_breeze_svg"
-rm -Rf "images_breeze"
-rm -Rf "images_breeze_dark"
-rm -Rf "images_breeze_dark_svg"
+cp "breeze/links.txt" \
+   "breeze_svg"
+rm -Rf "breeze"
+rm -Rf "breeze_dark"
+rm -Rf "breeze_dark_svg"
 
-cd "images_breeze_svg"
+cd "breeze_svg"
 
 echo "=> Clean SVG files ..."
 find -name "*.svg" -o -name "*.SVG" | while read i;
@@ -35,10 +35,10 @@ done
 
 cd "./.."
 
-cp -Rf "images_breeze_svg" \
-   "images_breeze"
-rm "images_breeze_svg/links.txt"
-cd "images_breeze"
+cp -Rf "breeze_svg" \
+   "breeze"
+rm "breeze_svg/links.txt"
+cd "breeze"
 
 echo "=> 1. Breeze PNG (light) version"
 echo "=> Export light SVG to PNG ..."
@@ -65,9 +65,9 @@ done
 echo "=> 2. Breeze SVG (dark) version"
 cd "./.."
 
-cp -Rf "images_breeze_svg" \
-   "images_breeze_dark_svg"
-cd "images_breeze_dark_svg"   
+cp -Rf "breeze_svg" \
+   "breeze_dark_svg"
+cd "breeze_dark_svg"   
 
 find -name "*.svg" -o -name "*.SVG" | while read i;
 do 
@@ -86,11 +86,11 @@ done
 echo "=> 3. Breeze PNG (dark) version"
 cd "./.."
 
-cp -Rf "images_breeze_dark_svg" \
-   "images_breeze_dark"
-cp "images_breeze/links.txt" \
-   "images_breeze_dark"   
-cd "images_breeze_dark" 
+cp -Rf "breeze_dark_svg" \
+   "breeze_dark"
+cp "breeze/links.txt" \
+   "breeze_dark"   
+cd "breeze_dark" 
 
 echo "=> Export dark SVG to PNG ..."
 find -name "*.svg" -o -name "*.SVG" | while read i;

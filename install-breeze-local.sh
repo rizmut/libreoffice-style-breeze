@@ -16,9 +16,9 @@ EOF
 temp_dir="$(mktemp -d)"
 
 # Breeze
-cd "images_breeze"
+cd "breeze"
 cp "links.txt" \
-   "../images_breeze_dark"
+   "../breeze_dark"
 zip -r -D images_breeze.zip *
 mv "images_breeze.zip" \
   "./../build/"
@@ -35,7 +35,7 @@ mv "Breeze-IconSet.oxt" \
 cd "./../.."
 
 # Breeze Dark
-cd "images_breeze_dark"
+cd "breeze_dark"
 zip -r -D images_breeze_dark.zip *
 mv "images_breeze_dark.zip" \
   "./../build/"
@@ -52,7 +52,7 @@ mv "Breeze-Dark-IconSet.oxt" \
 cd "./../.."
 
 # Breeze SVG
-cd "images_breeze_svg"
+cd "breeze_svg"
 zip -r -D images_breeze_svg.zip *
 mv "images_breeze_svg.zip" \
   "./../build/"
@@ -69,7 +69,7 @@ mv "Breeze-SVG-IconSet.oxt" \
 cd "./../.."
 
 # Breeze Dark SVG
-cd "images_breeze_dark_svg"
+cd "breeze_dark_svg"
 zip -r -D images_breeze_dark_svg.zip *
 mv "images_breeze_dark_svg.zip" \
   "./../build/"
