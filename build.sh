@@ -14,8 +14,7 @@ then
 fi
 
 echo "=> Remove old both light and dark version"
-cp "breeze/links.txt" \
-   "breeze_svg"
+
 rm -Rf "breeze"
 rm -Rf "breeze_dark"
 rm -Rf "breeze_dark_svg"
@@ -37,7 +36,6 @@ cd "./.."
 
 cp -Rf "breeze_svg" \
    "breeze"
-rm "breeze_svg/links.txt"
 cd "breeze"
 
 echo "=> 1. Breeze PNG (light) version"
@@ -67,6 +65,7 @@ cd "./.."
 
 cp -Rf "breeze_svg" \
    "breeze_dark_svg"
+
 cd "breeze_dark_svg"   
 
 find -name "*.svg" -o -name "*.SVG" | while read i;
@@ -112,3 +111,9 @@ do
     fdir=$( dirname "$i")
     rm "$i"
 done
+
+cd "./.."
+echo "delete links.txt in SVG directories"
+
+rm "breeze_svg/links.txt"
+rm "breeze_dark_svg/links.txt"
