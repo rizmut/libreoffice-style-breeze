@@ -1,6 +1,9 @@
 #!/bin/bash
 #2020 by Rizal Muttaqin
 
+links_light="breeze_svg/links.txt"
+links_dark="breeze_dark_svg/links.txt"
+
 if ! command -v optipng >/dev/null
 then
     echo "Please install optipng"
@@ -115,5 +118,10 @@ done
 cd "./.."
 echo "delete links.txt in SVG directories"
 
-rm "breeze_svg/links.txt"
-rm "breeze_dark_svg/links.txt"
+if [ -f $links_light ] ; then
+    rm $links_light
+fi
+
+if [ -f $links_dark ] ; then
+    rm $links_dark
+fi
